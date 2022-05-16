@@ -1,0 +1,79 @@
+:root {
+    --main-color: #fafafa;
+    --complementary-color: #fafafa;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #282828;
+    color: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fafafa;
+}
+
+.content {
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #fafafa;
+}
+
+.color-info {
+    padding: .5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.color-info__main {
+    color: var(--main-color);
+}
+
+.color-info__complementary {
+    color: var(--complementary-color);
+}
+
+.create-color {
+    display: block;
+    padding: .5rem;
+    width: 100%;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #282828;
+    color: #fafafa;
+}
+
+.colors {
+    display: flex;
+    height: 40px;
+}
+
+.color {
+    flex: 1 1 0;
+    height: 100%;
+}
+
+.main-color {
+    background-color: var(--main-color);
+}
+
+.complementary-color {
+    background-color: var(--complementary-color);
+}
